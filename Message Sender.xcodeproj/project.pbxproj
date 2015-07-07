@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		A4868FFF1B4BA99500D63CDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4868FFE1B4BA99500D63CDD /* main.m */; };
 		A48690021B4BA99500D63CDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A48690011B4BA99500D63CDD /* AppDelegate.m */; };
-		A48690051B4BA99500D63CDD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A48690041B4BA99500D63CDD /* ViewController.m */; };
 		A48690081B4BA99500D63CDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A48690061B4BA99500D63CDD /* Main.storyboard */; };
 		A486900A1B4BA99500D63CDD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A48690091B4BA99500D63CDD /* Images.xcassets */; };
 		A486900D1B4BA99500D63CDD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A486900B1B4BA99500D63CDD /* LaunchScreen.xib */; };
 		A48690191B4BA99600D63CDD /* Message_SenderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A48690181B4BA99600D63CDD /* Message_SenderTests.m */; };
+		A48690241B4BB94800D63CDD /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A48690231B4BB94800D63CDD /* HomeTableViewController.m */; };
+		A48690271B4BB96700D63CDD /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A48690261B4BB96700D63CDD /* MessageViewController.m */; };
+		A486902A1B4BB97D00D63CDD /* WhenToSendMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A48690291B4BB97D00D63CDD /* WhenToSendMessageViewController.m */; };
+		A48690301B4BD02400D63CDD /* GoingToSendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A486902F1B4BD02400D63CDD /* GoingToSendViewController.m */; };
+		A48690331B4BD05500D63CDD /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A48690321B4BD05500D63CDD /* HomeTableViewCell.m */; };
+		A48690361B4BD7AC00D63CDD /* MsgObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = A48690351B4BD7AC00D63CDD /* MsgObjects.m */; };
+		A48690391B4BDD9C00D63CDD /* MsgObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A48690381B4BDD9C00D63CDD /* MsgObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +38,26 @@
 		A4868FFE1B4BA99500D63CDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A48690001B4BA99500D63CDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A48690011B4BA99500D63CDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A48690031B4BA99500D63CDD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A48690041B4BA99500D63CDD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A48690071B4BA99500D63CDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A48690091B4BA99500D63CDD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A486900C1B4BA99500D63CDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A48690121B4BA99600D63CDD /* Message SenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Message SenderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A48690171B4BA99600D63CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A48690181B4BA99600D63CDD /* Message_SenderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Message_SenderTests.m; sourceTree = "<group>"; };
+		A48690221B4BB94800D63CDD /* HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
+		A48690231B4BB94800D63CDD /* HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
+		A48690251B4BB96700D63CDD /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		A48690261B4BB96700D63CDD /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		A48690281B4BB97D00D63CDD /* WhenToSendMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhenToSendMessageViewController.h; sourceTree = "<group>"; };
+		A48690291B4BB97D00D63CDD /* WhenToSendMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhenToSendMessageViewController.m; sourceTree = "<group>"; };
+		A486902E1B4BD02400D63CDD /* GoingToSendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoingToSendViewController.h; sourceTree = "<group>"; };
+		A486902F1B4BD02400D63CDD /* GoingToSendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoingToSendViewController.m; sourceTree = "<group>"; };
+		A48690311B4BD05500D63CDD /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
+		A48690321B4BD05500D63CDD /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
+		A48690341B4BD7AC00D63CDD /* MsgObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgObjects.h; sourceTree = "<group>"; };
+		A48690351B4BD7AC00D63CDD /* MsgObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgObjects.m; sourceTree = "<group>"; };
+		A48690371B4BDD9C00D63CDD /* MsgObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgObject.h; sourceTree = "<group>"; };
+		A48690381B4BDD9C00D63CDD /* MsgObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				A4868FFB1B4BA99500D63CDD /* Message Sender */,
-				A48690151B4BA99600D63CDD /* Message SenderTests */,
-				A4868FFA1B4BA99500D63CDD /* Products */,
+				A4868FFC1B4BA99500D63CDD /* Supporting Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,19 +93,20 @@
 				A48690121B4BA99600D63CDD /* Message SenderTests.xctest */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		A4868FFB1B4BA99500D63CDD /* Message Sender */ = {
 			isa = PBXGroup;
 			children = (
+				A486902D1B4BD00300D63CDD /* Sent/going to send */,
+				A486902C1B4BBB1500D63CDD /* Preparing To Send UI */,
+				A486902B1B4BBB0D00D63CDD /* Home */,
 				A48690001B4BA99500D63CDD /* AppDelegate.h */,
 				A48690011B4BA99500D63CDD /* AppDelegate.m */,
-				A48690031B4BA99500D63CDD /* ViewController.h */,
-				A48690041B4BA99500D63CDD /* ViewController.m */,
 				A48690061B4BA99500D63CDD /* Main.storyboard */,
 				A48690091B4BA99500D63CDD /* Images.xcassets */,
 				A486900B1B4BA99500D63CDD /* LaunchScreen.xib */,
-				A4868FFC1B4BA99500D63CDD /* Supporting Files */,
 			);
 			path = "Message Sender";
 			sourceTree = "<group>";
@@ -96,10 +114,13 @@
 		A4868FFC1B4BA99500D63CDD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A48690151B4BA99600D63CDD /* Message SenderTests */,
+				A4868FFA1B4BA99500D63CDD /* Products */,
 				A4868FFD1B4BA99500D63CDD /* Info.plist */,
 				A4868FFE1B4BA99500D63CDD /* main.m */,
 			);
 			name = "Supporting Files";
+			path = "Message Sender";
 			sourceTree = "<group>";
 		};
 		A48690151B4BA99600D63CDD /* Message SenderTests */ = {
@@ -109,7 +130,7 @@
 				A48690161B4BA99600D63CDD /* Supporting Files */,
 			);
 			path = "Message SenderTests";
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		A48690161B4BA99600D63CDD /* Supporting Files */ = {
 			isa = PBXGroup;
@@ -117,6 +138,41 @@
 				A48690171B4BA99600D63CDD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A486902B1B4BBB0D00D63CDD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A48690221B4BB94800D63CDD /* HomeTableViewController.h */,
+				A48690231B4BB94800D63CDD /* HomeTableViewController.m */,
+				A48690311B4BD05500D63CDD /* HomeTableViewCell.h */,
+				A48690321B4BD05500D63CDD /* HomeTableViewCell.m */,
+				A48690341B4BD7AC00D63CDD /* MsgObjects.h */,
+				A48690351B4BD7AC00D63CDD /* MsgObjects.m */,
+				A48690371B4BDD9C00D63CDD /* MsgObject.h */,
+				A48690381B4BDD9C00D63CDD /* MsgObject.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		A486902C1B4BBB1500D63CDD /* Preparing To Send UI */ = {
+			isa = PBXGroup;
+			children = (
+				A48690251B4BB96700D63CDD /* MessageViewController.h */,
+				A48690261B4BB96700D63CDD /* MessageViewController.m */,
+				A48690281B4BB97D00D63CDD /* WhenToSendMessageViewController.h */,
+				A48690291B4BB97D00D63CDD /* WhenToSendMessageViewController.m */,
+			);
+			name = "Preparing To Send UI";
+			sourceTree = "<group>";
+		};
+		A486902D1B4BD00300D63CDD /* Sent/going to send */ = {
+			isa = PBXGroup;
+			children = (
+				A486902E1B4BD02400D63CDD /* GoingToSendViewController.h */,
+				A486902F1B4BD02400D63CDD /* GoingToSendViewController.m */,
+			);
+			name = "Sent/going to send";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A48690051B4BA99500D63CDD /* ViewController.m in Sources */,
+				A48690361B4BD7AC00D63CDD /* MsgObjects.m in Sources */,
 				A48690021B4BA99500D63CDD /* AppDelegate.m in Sources */,
+				A486902A1B4BB97D00D63CDD /* WhenToSendMessageViewController.m in Sources */,
+				A48690301B4BD02400D63CDD /* GoingToSendViewController.m in Sources */,
+				A48690241B4BB94800D63CDD /* HomeTableViewController.m in Sources */,
+				A48690331B4BD05500D63CDD /* HomeTableViewCell.m in Sources */,
+				A48690391B4BDD9C00D63CDD /* MsgObject.m in Sources */,
+				A48690271B4BB96700D63CDD /* MessageViewController.m in Sources */,
 				A4868FFF1B4BA99500D63CDD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
