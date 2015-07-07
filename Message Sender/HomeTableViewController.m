@@ -56,8 +56,6 @@
     
     cell.deleteButton.enabled = NO;
     [cell.deleteButton setTitle:@"" forState:UIControlStateNormal];
-    [cell.deleteButton setBackgroundImage:[UIImage imageNamed:@""] forState:UIControlStateNormal];
-    [cell.deleteButton setBackgroundColor:[UIColor redColor]];
     
     cell.canDelete = NO;
     

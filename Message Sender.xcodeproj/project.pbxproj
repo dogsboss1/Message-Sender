@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A459CDB31B4C234F000D7BE5 /* grey backgroundV2.png in Resources */ = {isa = PBXBuildFile; fileRef = A459CDB11B4C234F000D7BE5 /* grey backgroundV2.png */; };
+		A459CDB41B4C234F000D7BE5 /* red delete.png in Resources */ = {isa = PBXBuildFile; fileRef = A459CDB21B4C234F000D7BE5 /* red delete.png */; };
+		A459CDB61B4C24D0000D7BE5 /* grey backgroundV3.png in Resources */ = {isa = PBXBuildFile; fileRef = A459CDB51B4C24D0000D7BE5 /* grey backgroundV3.png */; };
+		A459CDB81B4C2517000D7BE5 /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = A459CDB71B4C2517000D7BE5 /* white.png */; };
 		A4868FFF1B4BA99500D63CDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4868FFE1B4BA99500D63CDD /* main.m */; };
 		A48690021B4BA99500D63CDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A48690011B4BA99500D63CDD /* AppDelegate.m */; };
 		A48690081B4BA99500D63CDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A48690061B4BA99500D63CDD /* Main.storyboard */; };
@@ -33,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A459CDB11B4C234F000D7BE5 /* grey backgroundV2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "grey backgroundV2.png"; path = "Images/grey backgroundV2.png"; sourceTree = SOURCE_ROOT; };
+		A459CDB21B4C234F000D7BE5 /* red delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "red delete.png"; path = "Images/red delete.png"; sourceTree = SOURCE_ROOT; };
+		A459CDB51B4C24D0000D7BE5 /* grey backgroundV3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "grey backgroundV3.png"; path = "Images/grey backgroundV3.png"; sourceTree = SOURCE_ROOT; };
+		A459CDB71B4C2517000D7BE5 /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = white.png; path = "../../../../Creative Cloud Files/white.png"; sourceTree = "<group>"; };
 		A4868FF91B4BA99500D63CDD /* Message Sender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Message Sender.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4868FFD1B4BA99500D63CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4868FFE1B4BA99500D63CDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -78,6 +86,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A459CDB01B4C233D000D7BE5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A459CDB71B4C2517000D7BE5 /* white.png */,
+				A459CDB51B4C24D0000D7BE5 /* grey backgroundV3.png */,
+				A459CDB11B4C234F000D7BE5 /* grey backgroundV2.png */,
+				A459CDB21B4C234F000D7BE5 /* red delete.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		A4868FF01B4BA99500D63CDD = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +118,7 @@
 		A4868FFB1B4BA99500D63CDD /* Message Sender */ = {
 			isa = PBXGroup;
 			children = (
+				A459CDB01B4C233D000D7BE5 /* Images */,
 				A486902D1B4BD00300D63CDD /* Sent/going to send */,
 				A486902C1B4BBB1500D63CDD /* Preparing To Send UI */,
 				A486902B1B4BBB0D00D63CDD /* Home */,
@@ -256,8 +276,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A48690081B4BA99500D63CDD /* Main.storyboard in Resources */,
+				A459CDB41B4C234F000D7BE5 /* red delete.png in Resources */,
+				A459CDB61B4C24D0000D7BE5 /* grey backgroundV3.png in Resources */,
 				A486900D1B4BA99500D63CDD /* LaunchScreen.xib in Resources */,
 				A486900A1B4BA99500D63CDD /* Images.xcassets in Resources */,
+				A459CDB81B4C2517000D7BE5 /* white.png in Resources */,
+				A459CDB31B4C234F000D7BE5 /* grey backgroundV2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +438,7 @@
 				INFOPLIST_FILE = "Message Sender/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -424,6 +449,7 @@
 				INFOPLIST_FILE = "Message Sender/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -480,6 +506,7 @@
 				A486901E1B4BA99600D63CDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A486901F1B4BA99600D63CDD /* Build configuration list for PBXNativeTarget "Message SenderTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +515,7 @@
 				A48690211B4BA99600D63CDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
